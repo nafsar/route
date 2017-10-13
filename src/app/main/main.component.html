@@ -1,0 +1,46 @@
+<div class="route">
+<p>
+  If you are building an Angular enterprise web application, soon you notice navigating through various views 
+  are required. Angular routing provides capabilities for displaying different views and this technique simplifies
+  the navigation for large web applications. The router can handle optional parameters for views to help figuring out 
+  as which content to display. Router keeps a log in browser's history for ease of going forward and back between views.
+
+ Here is a quick guide on making a router for four page views:
+</p>
+<ol>
+
+<li>
+  Edit the index.html and add the <mark>&lt;base href="/"&gt;</mark> tag at the top of the &lt;head&gt; section.
+</li>
+
+<li>
+Run the following CLI command "ng generate module app-routing".
+</li>
+
+<li>
+  Now, edit <mark>"app-routing.module.ts" </mark>file and add the following basic configuration:
+  <div class="rte data"></div>
+   
+  
+</li>
+
+
+  <li>
+   Now, it is time to import the AppRoutingModule to <mark>"app.module.ts"</mark> file.
+   <div class="rtecnf data"></div>
+  </li>
+
+  <li>
+   The &lt;router-outlet&gt;&lt;/router-outlet&gt; should be added in <mark>app.component.html</mark>
+  </li>
+
+  <li>
+     I have added few more components in this configuration. Here is the final routes in 
+    <mark>app-routing.module.ts</mark>
+    <div class="rtecomp"></div>
+
+  </li>
+  
+</ol>
+<div style="margin-top:60px;font-size:20px;margin-left:4%"><mark>For more information on:</mark> <a href="https://angular.io/guide/router" target="_blank">🔗Router</a></div>
+</div>

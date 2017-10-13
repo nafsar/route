@@ -1,0 +1,17 @@
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  body{
+  font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+.ang {
+  background:url(../assets/a.png) no-repeat;
+  width:150px; height:42px;display:block;
+}
+  
+  

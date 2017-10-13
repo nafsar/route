@@ -1,0 +1,29 @@
+.route {
+    margin:2%;
+    
+}
+p {
+    text-align: justify;
+}
+.data {
+    width:700px; height:400px; display:block; margin:10px 0 25px 0; 
+    margin: auto;
+    
+      
+}
+.mrk{
+    background-color: #effa8f
+}
+.rte{
+    background: url(../../assets/1.png) no-repeat;  
+}
+.rtecnf{
+    background: url(../../assets/2.png) no-repeat; 
+}
+.rtecomp{
+    background: url(../../assets/3.png) no-repeat; 
+    width:700px; height:800px; display:block; margin:10px 0 25px 0;
+    margin: auto;
+    
+    
+}

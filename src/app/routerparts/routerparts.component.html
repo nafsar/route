@@ -1,0 +1,96 @@
+<div class="container">
+
+  <p>
+    The RouterOutlet displays views produced by the router. It has RouterLinks that users can click to navigate via the router.
+  </p>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Router Part</th>
+        <th>Meaning</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><mark>Router</mark></td>
+        <td>
+          Displays the application component for the active URL. Manages navigation from one component to the next.
+        </td>
+      </tr>
+      <tr>
+        <td>RouterModule</td>
+        <td>
+          A separate NgModule that provides the necessary service providers and directives for navigating through application views.
+        </td>
+      </tr>
+      <tr>
+        <td><mark>Routes</mark></td>
+        <td>
+          Defines an array of Routes, each mapping a URL path to a component.
+        </td>
+      </tr>
+      <tr>
+          <td>Route</td>
+          <td>
+              Defines how the router should navigate to a component based on a URL pattern. Most routes consist of a path and a component type.
+          </td>
+        </tr>      
+      <tr>
+        <td><mark>RouterOutlet</mark></td>
+        <td>
+            The directive (&lt;router-outlet&gt;) that marks where the router displays a view.
+        </td>
+      </tr>
+
+      <tr>
+        <td>RouterLink</td>
+        <td>
+            The directive for binding a clickable HTML element to a route. Clicking an element with a routerLink directive that is bound to a string or 
+            a link parameters array triggers a navigation.
+        </td>
+      </tr>
+
+      <tr>
+        <td><mark>RouterLinkActive</mark></td>
+        <td>
+            The directive for adding/removing classes from an HTML element when an associated routerLink contained on or inside the element becomes active/inactive.
+        </td>
+      </tr>
+
+      <tr>
+        <td><mark>ActivatedRoute</mark></td>
+        <td>
+            A service that is provided to each route component that contains route specific information such as route parameters, 
+            static data, resolve data, global query params, and the global fragment.
+        </td>
+      </tr>
+
+      <tr>
+        <td>RouterState </td>
+        <td>
+            The current state of the router including a tree of the currently activated routes together 
+            with convenience methods for traversing the route tree.
+        </td>
+      </tr>
+
+      <tr>
+        <td class="ritalic">Link parameters array</td>
+        <td>
+            An array that the router interprets as a routing instruction. 
+            You can bind that array to a RouterLink or pass the array as an argument to the Router.navigate method.
+        </td>
+      </tr>
+
+      <tr>
+        <td class="ritalic">Routing component </td>
+        <td>
+            An Angular component with a RouterOutlet that displays views based on router navigations.
+        </td>
+      </tr>
+
+
+
+    </tbody>
+  </table>
+</div>
