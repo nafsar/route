@@ -6,39 +6,26 @@ import { ActivatedRouteComponent } from '../activatedroute/activatedroute.compon
 import { MainComponent } from '../main/main.component';
 import { RouterPartsComponent } from '../routerparts/routerparts.component';
 import { RouterEventComponent } from '../routerevent/routerevent.component';
-
 const routes: Routes = [
   {
     path: 'routerevent',
     component: RouterEventComponent,
-  },
-  {
+  }, {
     path: 'routerparts',
     component: RouterPartsComponent,
-  },
-  {
+  }, {
     path: 'contact',
     component: ContactComponent,
-  },
-  {
+  }, {
     path: 'activatedroute',
     component: ActivatedRouteComponent,
-  },
-  {
+  }, {
     path: '', pathMatch: 'full',
     component: MainComponent
-  },
-  { path: '**', redirectTo: '' }
+  }, { path: '**', redirectTo: '' }
 ];
-
 @NgModule({
-  imports: [
-    RouterModule.forRoot(routes, { useHash: true }),
-    CommonModule
-  ],
-  exports: [
-    RouterModule
-  ],
-  declarations: []
+  imports: [RouterModule.forRoot(routes, { useHash: true }), CommonModule],
+  exports: [RouterModule], declarations: []
 })
 export class AppRoutingModule { }
