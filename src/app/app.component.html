@@ -9,9 +9,9 @@
     <a [routerLink]="['./main']"   queryParamsHandling="merge"><span class="ang"></span></a>
       <ul class="nav navbar-nav" >
         <li><a [routerLink]="['./routerevent']"  queryParamsHandling="merge">Route Event</a></li>     
-        <li><a [routerLink]="['./activatedroute']"  [queryParams]="{debug: true}" queryParamsHandling="merge">Activated Route</a></li>
-        <li><a [routerLink]="['./routerparts']"  [queryParams]="{debug: true}" queryParamsHandling="merge">Router parts</a></li>
-        <li><a [routerLink]="['./contact']"  [queryParams]="{debug: false}" queryParamsHandling="merge">Contact</a></li>
+        <li><a [routerLink]="['./activatedroute']"   queryParamsHandling="merge">Activated Route</a></li>
+        <li><a [routerLink]="['./routerparts']"   queryParamsHandling="merge">Router parts</a></li>
+        <li><a [routerLink]="['./contact']"   queryParamsHandling="merge">Contact</a></li>
       </ul>
   </nav>
   <router-outlet></router-outlet>
