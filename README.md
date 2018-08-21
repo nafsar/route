@@ -2,7 +2,7 @@
 
 Angular router sample project.
 
-demo: https://nafsar.github.io./demo/router
+demo: https://nafsar.github.io/demo/routerModule/#/
 
 Install node_module: npm install
 
